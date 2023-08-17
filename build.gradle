@@ -1,21 +1,24 @@
 buildscript {
-
+    ext.serenityCoreVersion = '3.3.0'
     repositories {
         mavenCentral()
     }
     dependencies {
-        classpath "net.serenity-bdd:serenity-single-page-report:3.3.0"
-        classpath "net.serenity-bdd:serenity-gradle-plugin:3.4.2"
+        classpath("net.serenity-bdd:serenity-gradle-plugin:3.4.2")
+        classpath "net.serenity-bdd:serenity-single-page-report:$serenityCoreVersion"
     }
 }
 
 plugins {
-    id "net.serenity-bdd.serenity-gradle-plugin" version "3.3.0"
+    id "net.serenity-bdd.serenity-gradle-plugin" version "${serenityCoreVersion}"
     id 'java'
+    id 'eclipse'
+    id 'idea'
 }
 
-defaultTasks 'clear', 'test', 'aggregate'
-group 'co.com.falabella'
+defaultTasks 'clean','test','aggregate'
+
+group ''
 version '1.0-SNAPSHOT'
 
 compileJava.options.encoding = "UTF-8"
@@ -28,23 +31,39 @@ repositories {
     mavenCentral()
 }
 
+ext {
+    junitVersion = '5.8.2'
+    logbackVersion = '1.2.10'
+    lombokVersion = '1.18.22'
+}
+
 dependencies {
-    implementation 'net.serenity-bdd:serenity-junit5:3.3.0'
-    implementation 'net.serenity-bdd:serenity-cucumber:3.6.0'
-    implementation 'net.serenity-bdd:serenity-core:3.6.0'
+    testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
+
+    implementation ("net.serenity-bdd:serenity-core:${serenityCoreVersion}")
+    implementation "net.serenity-bdd:serenity-junit5:${serenityCoreVersion}"
+    implementation "net.serenity-bdd:serenity-cucumber:${serenityCoreVersion}"
+    implementation "net.serenity-bdd:serenity-rest-assured:${serenityCoreVersion}"
+    implementation "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}"
+    implementation "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}"
     implementation group: 'org.apache.poi', name: 'poi', version: '3.17'
     implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '3.17'
-    implementation 'org.slf4j:slf4j-simple:1.7.7'
+    implementation 'org.slf4j:slf4j-simple:2.0.7'
+    testImplementation("io.github.bonigarcia:webdrivermanager:5.4.1")
+
 }
 
 test {
     useJUnitPlatform()
+    testLogging.showStandardStreams = true
+    systemProperties System.getProperties()
 }
 
-serenity{
-    testRoot="co.com.falabella.runners"
-    requirementsBaseDir=["src/test/resources/features/"]
-    reports=["single-page-html"]
+serenity {
+    testRoot = "co.falabella.com.Runners"
+    requirementsBaseDir = "src/test/resources/Features"
+    reports = ["single-page-html"]
 }
 
 gradle.startParameter.continueOnFailure = true
