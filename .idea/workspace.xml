@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0a47639-d142-4f96-a3c6-fe5c295d1bac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/interactions/ClickRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/interactions/QuantityRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/questions/NameProductQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/questions/QuantityProductQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/tasks/AddProductCartTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/tasks/HomeTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/tasks/ProductListTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/userInterface/AddProductCartUserInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/userInterface/ProductListUserInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/userInterface/ValidationProductUserInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/utils/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/utils/EscrituraExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/utils/Excel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/Data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/falabella/userInterface/HomeUserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/userInterface/HomeUserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/falabella/stepDefinitions/SearchStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/falabella/stepDefinitions/SearchStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/falabella/interactions/ClickRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/interactions/ClickRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Data/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Data/Data.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

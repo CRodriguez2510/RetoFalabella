@@ -42,7 +42,7 @@ public class ClickRandom implements Interaction {
 
             co.com.falabella.utils.EscrituraExcel.escrituraExcel(
                     "src/test/resources/Data/Data.xlsx",
-                    listProducts.get(indexRandom).getText(),1,2);
+                    productList.get(indexRandom).getText(),1,2);
 
             productList.get(indexRandom).click();
         }
