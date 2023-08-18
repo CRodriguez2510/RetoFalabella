@@ -6,8 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="b0a47639-d142-4f96-a3c6-fe5c295d1bac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/falabella/interactions/ClickRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/interactions/ClickRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/falabella/questions/QuantityProductQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/questions/QuantityProductQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/falabella/tasks/AddProductCartTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/tasks/AddProductCartTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/falabella/userInterface/AddProductCartUserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/userInterface/AddProductCartUserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/falabella/userInterface/HomeUserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/userInterface/HomeUserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/falabella/userInterface/ProductListUserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/userInterface/ProductListUserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/falabella/userInterface/ValidationProductUserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/falabella/userInterface/ValidationProductUserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/falabella/stepDefinitions/SearchStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/falabella/stepDefinitions/SearchStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Data/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Data/Data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,18 +65,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Proyectos/Amazon-semillero-julio&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Proyectos/RetoAlkomprar",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Proyectos\RetoFalabella\src\test\resources" />

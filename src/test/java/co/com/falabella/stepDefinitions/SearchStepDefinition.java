@@ -44,8 +44,8 @@ public class SearchStepDefinition {
     public void theUserWillSeeAMessageThatTheirProductIsInTheCart() {
         Customer.should(
                 seeThat(NameProductQuestion.from(), Matchers.equalTo(true)));
-        //Customer.should(
-               // seeThat(QuantityProductQuestion.from(), Matchers.equalTo(true)));
+        Customer.should(
+               seeThat(QuantityProductQuestion.from(), Matchers.equalTo(true)));
     }
 
 }

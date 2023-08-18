@@ -19,9 +19,7 @@ public class ClickRandom implements Interaction {
 
     public <T extends Actor> void performAs(T Customer) {
         List<WebElementFacade> listProducts = LBL_PRODUCT_LIST.resolveAllFor(Customer);
-        List<WebElementFacade> productList = LBL_LIST_PRODUCT.resolveAllFor(Customer);
 
-        if (!listProducts.isEmpty()) {
             Random random= new Random();
             int indexRandom= random.nextInt(listProducts.size());
             element=listProducts.get(indexRandom);
@@ -30,22 +28,7 @@ public class ClickRandom implements Interaction {
                     "src/test/resources/Data/Data.xlsx",
                     listProducts.get(indexRandom).getText(),1,2);
 
-
             listProducts.get(indexRandom).click();
-
-
-
-        } else if (!productList.isEmpty()) {
-            Random random= new Random();
-            int indexRandom= random.nextInt(productList.size());
-            element=productList.get(indexRandom);
-
-            co.com.falabella.utils.EscrituraExcel.escrituraExcel(
-                    "src/test/resources/Data/Data.xlsx",
-                    productList.get(indexRandom).getText(),1,2);
-
-            productList.get(indexRandom).click();
-        }
     }
 
     public static Performable RandomProduct(){

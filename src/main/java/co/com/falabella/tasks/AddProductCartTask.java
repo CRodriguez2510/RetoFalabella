@@ -16,9 +16,8 @@ public class AddProductCartTask implements Task {
 
 
         Customer.attemptsTo(QuantityRandom.Quantity(),
-                Click.on(Btn_AddProduct));
-
-        Customer.attemptsTo(Click.on(Btn_GoToCart));
+                Click.on(Btn_AddProduct),
+                Click.on(Btn_GoToCart));
 
         }
 

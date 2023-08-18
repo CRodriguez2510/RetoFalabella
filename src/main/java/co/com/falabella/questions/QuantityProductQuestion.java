@@ -13,17 +13,11 @@ public class QuantityProductQuestion implements Question <Boolean> {
 
         WebElementFacade QuantityProductTxt = LBL_QuantityProduct.resolveFor(Customer);
 
-        WebElementFacade QuantityListProduct = LBL_QuantityListProduct.resolveFor(Customer);
-
-
         int productQuantity = Customer.recall("QuantityProduct");
+        int infoQuantity = Integer.parseInt(QuantityProductTxt.getValue());
 
-        if (QuantityProductTxt.isPresent()) {
-            int infoQuantity = Integer.parseInt(QuantityProductTxt.getText());
-            return infoQuantity == productQuantity;
-        } else if (QuantityListProduct.isPresent()) {
-            int infoQuantity = Integer.parseInt(QuantityListProduct.getText());
-            return infoQuantity == productQuantity;
+        if((productQuantity == infoQuantity)){
+            return true;
         }
 
         return false;
